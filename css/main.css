@@ -1517,7 +1517,7 @@ header .logo a {
 	float: left;
 }
 .intro-info .lead {
-	text-align: left;
+	text-align: justify;
 	padding-left: 19rem;
 }
 
@@ -1712,9 +1712,16 @@ header .logo a {
 	bottom: 0;
 }
 #resume .timeline-content p {
+	text-align: justify;
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
 	color: #888888;
+}
+#resume .timeline-content p b {
+	font-weight:bold;
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.6rem;
+	color: #585858;
 }
 
 /**
